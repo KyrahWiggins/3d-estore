@@ -1,4 +1,4 @@
-# 3d-estore
+# ecommerce
  Building a 3D Ecommerce website using three.js
 # Getting Started with Create React App
 
