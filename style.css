@@ -1,5 +1,5 @@
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Shrikhand', cursive;
     padding: 0;
     margin: 0;
 }
@@ -53,17 +53,51 @@ nav{
 }
 
 .slider{
-    background-color:gray;
-}
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size:100% 100vh;
 
+}
 .sliderWrapper{
     display: flex;
     width: 500vw;
 }
 
 .sliderItem{
-    width: 100vw;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
+
+.sliderBg{
+    width: 800px;
+    height: 750px;
+    border-radius: 50%;
+    background-color: darkred;
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.sliderPrice{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: whitesmoke;
+    border: 1px solid gray;
+}
+
